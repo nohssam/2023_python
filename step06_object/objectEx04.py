@@ -1,6 +1,8 @@
-from step06_object.objectEx03 import Calculator
+#objectEx03 에 메서드를 사용하자
+# import objectEx03
+from step06_object  import objectEx03
 
-print(Calculator.plus(7,4))
-print(Calculator.minus(7,4))
-print(Calculator.multiply(7,4))
-print(Calculator.divide(7,4))
+print(objectEx03.Calculator.plus(7,4))
+print(objectEx03.Calculator.minus(7,4))
+print(objectEx03.Calculator.multiply(7,4))
+print(objectEx03.Calculator.divide(7,4))
